@@ -1,0 +1,8 @@
+basedosdados
+pandas
+pyarrow
+plotly
+statsmodels
+streamlit
+python-dotenv
+jupyter

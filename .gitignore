@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ------------------------------------------------------------
+# Projeto eleicoes-fundo-eleitoral
+# ------------------------------------------------------------
+# Dados locais (mantém apenas o .gitkeep para a pasta existir no repositório)
+data/*
+!data/.gitkeep
+
+# Ambiente e credenciais
+.venv/
+.env
+
+# Arquivos de dados grandes em qualquer pasta.
+# Para versionar um CSV pequeno de propósito, adicione uma exceção abaixo, por exemplo:
+# !docs/tabela_pequena.csv
+*.parquet
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
